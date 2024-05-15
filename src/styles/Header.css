@@ -1,0 +1,119 @@
+/* Header.module.css */
+.frame {
+  color: #fff;
+  text-align: center;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.main-container {
+  border-radius: 10px;
+  border-style: solid;
+  display: flex;
+  align-items: flex-end;
+  width: 90vw;
+  height: 90vh;
+}
+.background-blur{
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.background-blur nav{
+  height: 50px;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  :hover{
+    cursor: pointer;
+    border-color: #FEA55F;
+      border-top: none; border-left: none; border-right: none;
+    border-width: 1px;
+  }
+}
+.background-blur nav p{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#607B96;
+  border-top: none;
+  border-left: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1E2D3D;
+}
+.page-container{
+  opacity: 1;
+  transition: 1s;
+  animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+/* Responsive for mobile */
+@media screen and (max-width: 600px) {
+  .frame {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+    min-height: 300px;
+  }
+  .main-container {
+    border-radius: 10px;
+    height: 90vh;
+    margin: 0 5% 0 5%;
+    border-style: solid;
+    display: flex;
+    align-items: flex-end;
+  }
+  .background-blur{
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .background-blur nav{
+    height: 50px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .background-blur nav p{
+    font-size: 12px;
+    padding: .5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#607B96;
+    border-top: none;
+    border-left: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1E2D3D;
+  }
+}

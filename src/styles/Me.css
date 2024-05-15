@@ -1,0 +1,70 @@
+.me-container{
+    display: flex;
+    flex-direction: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    gap: 20px;
+  }
+  .me-container .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    h1{
+      padding: 0;
+      font-size: 62px;
+      font-weight: 400;
+      margin: -5% 0 -7% -1%;
+    }
+    h3{
+      font-weight: normal;
+      font-size: 32px;
+      padding: 0;
+    }
+    div {
+      text-align: left;
+    }
+  }
+  .berkant-photo {
+    object-fit: cover;
+    width: 300px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .me-container{
+      overflow: scroll;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .me-container .details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+      p{
+        font-size: 12px;
+      }
+      h1{
+        padding: 0;
+        font-size: 30px;
+        font-weight: 400;
+        margin: -5% 0 -7% -1%;
+      }
+      h3{
+        font-weight: normal;
+        font-size: 20px;
+        padding: 0;
+      }
+      div {
+        text-align: left;
+      }
+    }
+    .berkant-photo {
+      object-fit: cover;
+      width: 200px;
+    }
+  }

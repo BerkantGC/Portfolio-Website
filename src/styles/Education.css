@@ -1,0 +1,19 @@
+/* Education.module.css */
+.education {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.education p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
