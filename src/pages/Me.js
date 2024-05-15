@@ -18,7 +18,7 @@ const Me = () => {
             <div>
                 <p style={{color: Colors.softGrayBlue}}>// you can also see it on my Github page.</p>
                 <p style={{color: Colors.royalBlue, fontStyle: 'oblique'}}>const <span style={{color: Colors.mintTurquoise}}>githubLink </span>
-                <span style={{color: Colors.white}}>= </span> <a href={githubLinkURL} style={{color: Colors.salmonRose, textDecoration: 'underline'}}>{githubLinkURL}</a></p> 
+                <span style={{color: Colors.white}}>= </span> <a target='_blank' href={githubLinkURL} style={{color: Colors.salmonRose, textDecoration: 'underline'}}>{githubLinkURL}</a></p> 
             </div>
             </div>
             <div>

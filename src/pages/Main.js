@@ -1,12 +1,9 @@
 // Header.js
 import React, { useState } from 'react';
-import styles from '../styles/Header.css'; // Import CSS module
 import Me from './Me';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
-import BackgroundBlurs from "../images/BackgroundBlurs.png";
-import BerkantGC from "../images/photo.png";
 import Background from '../components/Background';
 
 const Header = () => {

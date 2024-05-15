@@ -32,8 +32,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  :first-child{
+    cursor: default;
+  }
+  :not(:first-child)
   :hover{
-    cursor: pointer;
     border-color: #FEA55F;
       border-top: none; border-left: none; border-right: none;
     border-width: 1px;
@@ -52,6 +56,13 @@
   border-style: solid;
   border-color: #1E2D3D;
 }
+.find-me-in{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
 .page-container{
   opacity: 1;
   transition: 1s;
@@ -64,7 +75,6 @@
 /* Responsive for mobile */
 @media screen and (max-width: 600px) {
   .frame {
-    overflow: scroll;
     color: #fff;
     text-align: center;
     display: flex;
@@ -77,7 +87,7 @@
     min-height: 300px;
   }
   .main-container {
-    overflow: scroll;
+    overflow-y: scroll;
     border-radius: 10px;
     height: 90vh;
     margin: 0 5% 0 5%;
@@ -118,4 +128,5 @@
     border-style: solid;
     border-color: #1E2D3D;
   }
+  
 }

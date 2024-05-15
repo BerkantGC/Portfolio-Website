@@ -1,13 +1,59 @@
 /* About.css */
 #about {
-    padding: 20px;
+    overflow-y: scroll;
+    z-index: 99;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    width: 90vw;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
   }
-  
+  .description{
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    padding: 10px;
+    border-style: solid;
+    max-width: 300px;
+    min-width: 200px;
+    text-align: start;
+    border-radius: 5px;
+  }
+  #education{
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    padding: 10px;
+    border-style: solid;
+    max-width: 300px;
+    min-width: 200px;
+    border-radius: 5px;
+
+  }
+  #skills{
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    padding: 10px;
+    border-style: solid;
+    max-width: 300px;
+    min-width: 200px;
+    text-align: start;
+    border-radius: 5px;
+
+  }
   #about h2 {
-    color: #333;
+    color: white;
   }
   
   #about p {
-    color: #666;
+    color: white;
   }
   
