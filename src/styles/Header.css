@@ -64,6 +64,7 @@
 /* Responsive for mobile */
 @media screen and (max-width: 600px) {
   .frame {
+    overflow: scroll;
     color: #fff;
     text-align: center;
     display: flex;
