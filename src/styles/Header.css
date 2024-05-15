@@ -79,7 +79,7 @@
   .main-container {
     overflow: scroll;
     border-radius: 10px;
-    height: 80vh;
+    height: 90vh;
     margin: 0 5% 0 5%;
     border-style: solid;
     display: flex;
