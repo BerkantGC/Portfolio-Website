@@ -15,8 +15,8 @@ const About = () => {
       </section>
       <section id="education" className={styles.education}>
         <h2>Education</h2>
-        <p>Computer Engineering (Bachelor's Degree)<br></br> <span>Yaşar University <br/>Sep 2021 - June 2025</span></p>
-        <p>Computer Sciences (ERASMUS+)<br></br> <span>Yaşar University <br/>Feb 2024 - July 2024</span></p>
+        <p>Computer Engineering (Bachelor's Degree)<br></br> <span>Yaşar University -Türkiye <br/>Sep 2021 - June 2025</span></p>
+        <p>Computer Sciences (ERASMUS+)<br></br> <span>Howest University -Belgium<br/>Feb 2024 - July 2024</span></p>
       </section>
       <section id="skills">
         <h2>Skills</h2>
