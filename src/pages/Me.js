@@ -5,7 +5,7 @@ import Colors from '../Colors';
 import BerkantGC from "../images/photo.png";
 
 const Me = () => {
-  let githubLinkURL = "https://github.com/BerkantGC";
+  let cvLink = "https://drive.google.com/file/d/1pXd_CT6kudTFkgFHzpUCG0r8p7fFQEil/view?usp=sharing";
   const [selectedPage, setSelectedPage] = useState("me");
 
   return (
@@ -16,9 +16,9 @@ const Me = () => {
                 <h1>Berkant Gürcan</h1>
                 <h3 style={{color: Colors.gradient_blue}}>{">"} Computer Engineer</h3>
             <div>
-                <p style={{color: Colors.softGrayBlue}}>// you can also see it on my Github page.</p>
-                <p style={{color: Colors.royalBlue, fontStyle: 'oblique'}}>const <span style={{color: Colors.mintTurquoise}}>githubLink </span>
-                <span style={{color: Colors.white}}>= </span> <a target='_blank' href={githubLinkURL} style={{color: Colors.salmonRose, textDecoration: 'underline'}}>{githubLinkURL}</a></p> 
+                <p style={{color: Colors.softGrayBlue}}>// you can also see it on my resume.</p>
+                <p style={{color: Colors.royalBlue, fontStyle: 'oblique'}}>const <span style={{color: Colors.mintTurquoise}}>myResume </span>
+                <span style={{color: Colors.white}}>= </span> <a target='_blank' href={cvLink} style={{color: Colors.salmonRose, fontStyle:'normal', textDecoration: 'underline'}}>CV</a></p> 
             </div>
             </div>
             <div>
