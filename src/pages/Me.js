@@ -5,7 +5,7 @@ import Colors from '../Colors';
 import BerkantGC from "../images/photo.png";
 
 const Me = () => {
-  let cvLink = "https://drive.google.com/file/d/1pXd_CT6kudTFkgFHzpUCG0r8p7fFQEil/view?usp=sharing";
+  let cvLink = "https://drive.google.com/file/d/1ndeFdkZJsOC4YBIMDt73mR07_W1zGZGq/view?usp=sharing";
   const [selectedPage, setSelectedPage] = useState("me");
 
   return (
